@@ -1,0 +1,17 @@
+# Ignore Mac system files
+.DS_store
+
+# Ignore all PDF files
+*.pdf
+
+
+# Ignore all notebook checkpoint files
+notebooks/.ipynb_checkpoints
+
+# Ignore model outputs
+notebooks/runs
+notebooks/cache_dir
+notebooks/outputs
+
+# Ignore all data files
+data/
